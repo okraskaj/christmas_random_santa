@@ -10,6 +10,14 @@ body {
     text-align: center;
   }
   .hidden { display: none !important; }
+  .title {
+    font-family: "Great Vibes", cursive;
+    font-size: clamp(3.9rem, 15.6vw, 7.8rem);
+    line-height: 1.1;
+    color: #f1c40f;
+    text-shadow: 0 0 20px #f1c40f66;
+    margin-bottom: 3rem;
+  }
   .screen { padding: 2rem; }
   #buttons {
     display: grid;
@@ -53,11 +61,23 @@ body {
     from { transform: scale(0); opacity: 0; }
     to   { transform: scale(1); opacity: 1; }
   }
-  .link {
-    margin-top: 3rem;
-    background: none;
+  #gift { display: block; margin: 0 auto; }
+  #reset {
+    display: block;
+    max-width: 320px;
+    margin: 2.5rem auto 0;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
     border: none;
-    color: #ffffff66;
-    text-decoration: underline;
+    border-radius: 12px;
+    background: #7f8c8d;
+    color: #fff;
     cursor: pointer;
+  }
+  #reset:hover { background: #95a5a6; }
+  #reset small {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    opacity: 0.85;
   }
