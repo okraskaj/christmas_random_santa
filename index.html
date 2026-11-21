@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Secret Santa 🎅</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section id="who" class="screen hidden">
+    <h1>Kim jesteś?</h1>
+    <div id="buttons"></div>
+  </section>
+
+  <section id="gift-screen" class="screen hidden">
+    <h1 id="hello"></h1>
+    <p id="hint">Kliknij prezent 🎁</p>
+    <img id="gift" src="gift.png" alt="Prezent" />
+    <div id="result" class="hidden">
+      <p>Robisz prezent dla:</p>
+      <h2 id="target"></h2>
+    </div>
+    <button id="reset" class="link">To nie ja</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
