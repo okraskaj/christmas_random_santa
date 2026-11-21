@@ -1,13 +1,13 @@
 const PEOPLE = ["Jasiek", "Ola", "Iwonka", "Szymon", "Marcysia", "Piotr", "Przemek"];
 // ← tutaj wklej wynik z `node generate.js`
 const DRAW = {
-    "Jasiek": "YWtub3dJ",
-    "Ola": "cnRvaVA=",
-    "Iwonka": "YWlzeWNyYU0=",
-    "Szymon": "a2Vpc2FK",
-    "Marcysia": "a2VtZXpyUA==",
-    "Piotr": "bm9teXpT",
-    "Przemek": "YWxP"
+  "Jasiek": "YWlzeWNyYU0=",
+  "Ola": "cnRvaVA=",
+  "Iwonka": "YWxP",
+  "Szymon": "a2Vpc2FK",
+  "Marcysia": "a2VtZXpyUA==",
+  "Piotr": "bm9teXpT",
+  "Przemek": "YWtub3dJ"
 };
 
 const STORAGE_KEY = "santa_who";
